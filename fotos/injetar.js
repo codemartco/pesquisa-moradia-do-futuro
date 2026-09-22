@@ -1,7 +1,7 @@
 // Comprime (usa .jpg já gerados pelo ffmpeg) e injeta as fotos no form-demo.html
 const fs=require('fs'),path=require('path');
 const HERE=__dirname, FORM=path.join(HERE,'..','form-demo.html');
-const nomes=['hero','casal','mesa','treino','interior','rcasa','rarea','rgym','rgourmet'];
+const nomes=['rcasa','rarea','rgym','rgourmet'];
 const fotos={};
 let total=0;
 for(const n of nomes){
