@@ -1,0 +1,1356 @@
+[
+ {
+  "title": "Bloco 1 — Perfil do respondente",
+  "type": 8,
+  "widgets": null
+ },
+ {
+  "title": "Qual sua idade?",
+  "type": 2,
+  "entry": 1010536446,
+  "row": null,
+  "opts": [
+   "45-49",
+   "50-54",
+   "55-59"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual seu estado civil?",
+  "type": 2,
+  "entry": 1731930385,
+  "row": null,
+  "opts": [
+   "Casado(a)",
+   "Solteiro(a)",
+   "Viúvo(a)"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Moram juntos?",
+  "type": 2,
+  "entry": 1450987666,
+  "row": null,
+  "opts": [
+   "Sim",
+   "Não",
+   "Não se aplica"
+  ],
+  "req": 0
+ },
+ {
+  "title": "Qual a idade do seu parceiro(a)?",
+  "type": 2,
+  "entry": 614749334,
+  "row": null,
+  "opts": [
+   "45-49",
+   "50-54",
+   "55-59"
+  ],
+  "req": 0
+ },
+ {
+  "title": "Qual é a sua situação atual?",
+  "type": 2,
+  "entry": 2046776104,
+  "row": null,
+  "opts": [
+   "Ainda tenho trabalho integral",
+   "Trabalho em tempo parcial",
+   "Posso trabalhar remotamente"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual é a situação atual de seu parceiro(a)?",
+  "type": 2,
+  "entry": 659087116,
+  "row": null,
+  "opts": [
+   "Ainda tem trabalho integral",
+   "Trabalha em tempo parcial",
+   "Pode trabalhar remotamente"
+  ],
+  "req": 0
+ },
+ {
+  "title": "Onde você mora atualmente? (Cidade e Estado)",
+  "type": 0,
+  "entry": 1796817221,
+  "row": null,
+  "opts": [],
+  "req": 1
+ },
+ {
+  "title": "Você possui imóvel próprio?",
+  "type": 2,
+  "entry": 2036076038,
+  "row": null,
+  "opts": [
+   "Sim, onde moramos",
+   "Sim, mas não é minha residência",
+   "Não"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Você tem filhos?",
+  "type": 2,
+  "entry": 1073263289,
+  "row": null,
+  "opts": [
+   "Sim, morando junto",
+   "Sim, morando próximos",
+   "Sim, morando em outra cidade"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Vocês têm netos?",
+  "type": 2,
+  "entry": 1604406930,
+  "row": null,
+  "opts": [
+   "Sim",
+   "Não"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Bloco 2 — Estilo de vida atual",
+  "type": 8,
+  "widgets": null
+ },
+ {
+  "title": "Quantos dias por semana você pratica atividade física?",
+  "type": 2,
+  "entry": 281701157,
+  "row": null,
+  "opts": [
+   "Nenhum",
+   "1-2",
+   "3-4"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual a importância de manter uma vida fisicamente ativa nos próximos 10-20 anos?",
+  "type": 5,
+  "entry": 104644890,
+  "row": "Nada importante",
+  "opts": [
+   "1",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Manter uma alimentação saudável frequentemente",
+  "type": 5,
+  "entry": 902230978,
+  "row": "Nada importante",
+  "opts": [
+   "1",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Quanto você valoriza viver próximo à natureza?",
+  "type": 5,
+  "entry": 1077028918,
+  "row": "Nada",
+  "opts": [
+   "1",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Bloco 3 — A vida que você deseja ter ou manter",
+  "type": 8,
+  "widgets": null
+ },
+ {
+  "title": "Pensando nos próximos 10-20 anos, quais aspectos você gostaria que sua moradia proporcionasse?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 778720014,
+  "row": "Conforto",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Pensando nos próximos 10-20 anos, quais aspectos você gostaria que sua moradia proporcionasse?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1671820972,
+  "row": "Privacidade",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Pensando nos próximos 10-20 anos, quais aspectos você gostaria que sua moradia proporcionasse?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 621190939,
+  "row": "Segurança",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Pensando nos próximos 10-20 anos, quais aspectos você gostaria que sua moradia proporcionasse?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1596888250,
+  "row": "Saúde",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Pensando nos próximos 10-20 anos, quais aspectos você gostaria que sua moradia proporcionasse?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 817726809,
+  "row": "Atividade física",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Pensando nos próximos 10-20 anos, quais aspectos você gostaria que sua moradia proporcionasse?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1366263628,
+  "row": "Alimentação saudável",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Pensando nos próximos 10-20 anos, quais aspectos você gostaria que sua moradia proporcionasse?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1153212164,
+  "row": "Convivência social",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Pensando nos próximos 10-20 anos, quais aspectos você gostaria que sua moradia proporcionasse?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1556759639,
+  "row": "Contato com a natureza",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Pensando nos próximos 10-20 anos, quais aspectos você gostaria que sua moradia proporcionasse?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 354741843,
+  "row": "Tranquilidade",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Pensando nos próximos 10-20 anos, quais aspectos você gostaria que sua moradia proporcionasse?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 837791261,
+  "row": "Praticidade",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Pensando nos próximos 10-20 anos, quais aspectos você gostaria que sua moradia proporcionasse?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1112482757,
+  "row": "Independência",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Pensando nos próximos 10-20 anos, quais aspectos você gostaria que sua moradia proporcionasse?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1567356849,
+  "row": "Facilidade de manutenção",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Pensando nos próximos 10-20 anos, quais aspectos você gostaria que sua moradia proporcionasse?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 489087925,
+  "row": "Receber amigos",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Pensando nos próximos 10-20 anos, quais aspectos você gostaria que sua moradia proporcionasse?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1235366359,
+  "row": "Receber filhos e netos",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Pensando nos próximos 10-20 anos, quais aspectos você gostaria que sua moradia proporcionasse?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1801993508,
+  "row": "Ter atividades de lazer",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Pensando nos próximos 10-20 anos, quais aspectos você gostaria que sua moradia proporcionasse?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 299379057,
+  "row": "Ter serviços próximos",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Pensando nos próximos 10-20 anos, quais aspectos você gostaria que sua moradia proporcionasse?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1786726204,
+  "row": "Ter apoio quando necessário",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Pensando nos próximos 10-20 anos, quais aspectos você gostaria que sua moradia proporcionasse?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 575846558,
+  "row": "Envelhecer no mesmo imóvel",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "O que você não gostaria de perder no seu estilo de vida à medida que envelhece?",
+  "type": 1,
+  "entry": 106705114,
+  "row": null,
+  "opts": [],
+  "req": 0
+ },
+ {
+  "title": "O que você gostaria que sua próxima moradia facilitasse na sua vida?",
+  "type": 1,
+  "entry": 226057894,
+  "row": null,
+  "opts": [],
+  "req": 0
+ },
+ {
+  "title": "Você gosta de receber amigos em casa ou prefere encontrá-los em outros espaços?",
+  "type": 2,
+  "entry": 493510199,
+  "row": null,
+  "opts": [
+   "Gosto muito de receber em casa",
+   "Gosto de receber, mas ocasionalmente",
+   "Tanto faz"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Quando recebe amigos ou familiares, quais espaços considera mais importantes?",
+  "type": 4,
+  "entry": 1511970034,
+  "row": null,
+  "opts": [
+   "Sala",
+   "Cozinha",
+   "Varanda"
+  ],
+  "req": 1
+ },
+ {
+  "title": "O conceito de moradia desta pesquisa",
+  "type": 8,
+  "widgets": null
+ },
+ {
+  "title": "Qual sua impressão geral sobre essa proposta?",
+  "type": 5,
+  "entry": 1519896907,
+  "row": "Muito negativa",
+  "opts": [
+   "1",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Quanto você se identifica com esse estilo de vida?",
+  "type": 5,
+  "entry": 886686338,
+  "row": "Nada",
+  "opts": [
+   "1",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Você consideraria morar em um empreendimento como esse?",
+  "type": 2,
+  "entry": 1388214197,
+  "row": null,
+  "opts": [
+   "Certamente",
+   "Provavelmente",
+   "Talvez"
+  ],
+  "req": 1
+ },
+ {
+  "title": "O que mais atrai você nessa proposta?",
+  "type": 4,
+  "entry": 2109227597,
+  "row": null,
+  "opts": [
+   "Casa privativa com cozinha própria",
+   "Comunidade pequena, de apenas quatro casas, com afinidades",
+   "Cozinheiro compartilhado cinco dias por semana"
+  ],
+  "req": 1
+ },
+ {
+  "title": "O que mais lhe preocupa?",
+  "type": 1,
+  "entry": 2034970212,
+  "row": null,
+  "opts": [],
+  "req": 0
+ },
+ {
+  "title": "O que poderia fazer você desistir de morar em uma comunidade como essa?",
+  "type": 1,
+  "entry": 1902399975,
+  "row": null,
+  "opts": [],
+  "req": 0
+ },
+ {
+  "title": "Bloco 5 — A casa ideal nesta proposta",
+  "type": 8,
+  "widgets": null
+ },
+ {
+  "title": "Pensando no atual momento de vida e nos próximos 10-20 anos, qual seria o tamanho ideal de uma residência para vocês?",
+  "type": 2,
+  "entry": 2073424496,
+  "row": null,
+  "opts": [
+   "Até 80 m²",
+   "81-100 m²",
+   "101-120 m²"
+  ],
+  "req": 1
+ },
+ {
+  "title": "E qual seria o tamanho mínimo que consideraria confortável?",
+  "type": 0,
+  "entry": 1136502830,
+  "row": null,
+  "opts": [],
+  "req": 0
+ },
+ {
+  "title": "Quantos quartos você considerariam ideais?",
+  "type": 2,
+  "entry": 2035780656,
+  "row": null,
+  "opts": [
+   "1",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1134126736,
+  "row": "Suíte principal ampla",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 723152692,
+  "row": "Suíte com banheiro para ele e para ela",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1765559944,
+  "row": "Suíte com banheiro com duas cubas",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1310158181,
+  "row": "Banheira",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1729953311,
+  "row": "Segundo quarto",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1753575471,
+  "row": "Terceiro quarto",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1787742726,
+  "row": "Closet",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1892853196,
+  "row": "Escritório",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1968865815,
+  "row": "Sala de estar",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1525976029,
+  "row": "Sala de TV",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 69320096,
+  "row": "Cozinha ampla",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 850457957,
+  "row": "Cozinha integrada",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 537535591,
+  "row": "Despensa",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1200306984,
+  "row": "Lavanderia",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 683583796,
+  "row": "Lavabo",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1608443371,
+  "row": "Varanda",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 378520119,
+  "row": "Deck",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1628696864,
+  "row": "Jardim privativo",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 774151254,
+  "row": "Espaço gourmet",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1131870398,
+  "row": "Churrasqueira",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 450902023,
+  "row": "Garagem",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1261192712,
+  "row": "Depósito",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual importância você atribui a cada espaço?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 639678710,
+  "row": "Espaço para bicicletas/equipamentos esportivos",
+  "opts": [
+   "1 - Pouco importante",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Bloco 6 — Longevidade da casa",
+  "type": 8,
+  "widgets": null
+ },
+ {
+  "title": "Quão importante é para você que a casa possa continuar adequada às suas necessidades pelos próximos 15-30 anos?",
+  "type": 5,
+  "entry": 2034729354,
+  "row": "Nada importante",
+  "opts": [
+   "1",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Você gostaria de poder utilizar os principais ambientes da casa sem depender rotineiramente de escadas?",
+  "type": 5,
+  "entry": 216259458,
+  "row": "Indiferente",
+  "opts": [
+   "1",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Você considera importante que a casa possa receber adaptações futuras caso sua mobilidade ou necessidades mudem?",
+  "type": 5,
+  "entry": 1840928266,
+  "row": "Nada importante",
+  "opts": [
+   "1",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "O que você preferiria entre estas opções abaixo?",
+  "type": 2,
+  "entry": 692034116,
+  "row": null,
+  "opts": [
+   "Uma casa térrea menor sem vista",
+   "Um sobrado com elevador",
+   null
+  ],
+  "req": 1
+ },
+ {
+  "title": "Você estaria disposto a pagar mais por uma residência preparada para proporcionar maior autonomia e conforto ao longo do envelhecimento?",
+  "type": 2,
+  "entry": 337493783,
+  "row": null,
+  "opts": [
+   "Não",
+   "Talvez",
+   "Sim, dependendo do valor"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Bloco 7 — Compartilhamento",
+  "type": 8,
+  "widgets": null
+ },
+ {
+  "title": "Como você se sentiria em compartilhar os seguintes elementos?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 738465022,
+  "row": "Academia",
+  "opts": [
+   "Compartilharia tranquilamente",
+   "Compartilharia eventualmente",
+   "Preferiria privativo"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Como você se sentiria em compartilhar os seguintes elementos?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 106841564,
+  "row": "Área de treinamento funcional",
+  "opts": [
+   "Compartilharia tranquilamente",
+   "Compartilharia eventualmente",
+   "Preferiria privativo"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Como você se sentiria em compartilhar os seguintes elementos?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 340621389,
+  "row": "Pequena piscina",
+  "opts": [
+   "Compartilharia tranquilamente",
+   "Compartilharia eventualmente",
+   "Preferiria privativo"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Como você se sentiria em compartilhar os seguintes elementos?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 2099501513,
+  "row": "Sauna",
+  "opts": [
+   "Compartilharia tranquilamente",
+   "Compartilharia eventualmente",
+   "Preferiria privativo"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Como você se sentiria em compartilhar os seguintes elementos?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1281001337,
+  "row": "Jardins",
+  "opts": [
+   "Compartilharia tranquilamente",
+   "Compartilharia eventualmente",
+   "Preferiria privativo"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Como você se sentiria em compartilhar os seguintes elementos?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1275298625,
+  "row": "Área gourmet",
+  "opts": [
+   "Compartilharia tranquilamente",
+   "Compartilharia eventualmente",
+   "Preferiria privativo"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Como você se sentiria em compartilhar os seguintes elementos?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 840877728,
+  "row": "Refeições",
+  "opts": [
+   "Compartilharia tranquilamente",
+   "Compartilharia eventualmente",
+   "Preferiria privativo"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Como você se sentiria em compartilhar os seguintes elementos?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1071287035,
+  "row": "Equipamentos esportivos",
+  "opts": [
+   "Compartilharia tranquilamente",
+   "Compartilharia eventualmente",
+   "Preferiria privativo"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Como você se sentiria em compartilhar os seguintes elementos?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 503468421,
+  "row": "Espaços de convivência",
+  "opts": [
+   "Compartilharia tranquilamente",
+   "Compartilharia eventualmente",
+   "Preferiria privativo"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Como você se sentiria em compartilhar os seguintes elementos?\n\nPara ver todas as opções de resposta, movimente para o lado.",
+  "type": 7,
+  "entry": 1534740350,
+  "row": "Serviços de manutenção",
+  "opts": [
+   "Compartilharia tranquilamente",
+   "Compartilharia eventualmente",
+   "Preferiria privativo"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Bloco 8 — Alimentação e longevidade",
+  "type": 8,
+  "widgets": null
+ },
+ {
+  "title": "Qual seu interesse em contar com um cozinheiro compartilhado cinco dias por semana?",
+  "type": 5,
+  "entry": 1230309202,
+  "row": "Nenhum interesse",
+  "opts": [
+   "1",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Você preferiria:",
+  "type": 2,
+  "entry": 2101107571,
+  "row": null,
+  "opts": [
+   "Preparar todas as refeições em casa",
+   "Alternar entre casa e área gourmet",
+   "Fazer a maioria das refeições coletivamente"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Quanto valoriza poder adaptar as refeições às suas necessidades e preferências individuais?",
+  "type": 5,
+  "entry": 839344893,
+  "row": "Nada",
+  "opts": [
+   "1",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Bloco 9 — Atividade física",
+  "type": 8,
+  "widgets": null
+ },
+ {
+  "title": "Qual a importância de ter uma estrutura de exercícios dentro do condomínio?",
+  "type": 5,
+  "entry": 1935337076,
+  "row": "Nada importante",
+  "opts": [
+   "1",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual a importância de contar com um educador físico compartilhado seis dias por semana?",
+  "type": 5,
+  "entry": 1192256745,
+  "row": "Nada importante",
+  "opts": [
+   "1",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Você preferiria:",
+  "type": 2,
+  "entry": 508908287,
+  "row": null,
+  "opts": [
+   "Treinar sozinho",
+   "Treinar com seu parceiro",
+   "Treinar em pequenos grupos"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Você acredita que ter um profissional disponível no próprio condomínio aumentaria sua regularidade nos exercícios?",
+  "type": 2,
+  "entry": 1220564971,
+  "row": null,
+  "opts": [
+   "Sim",
+   "Provavelmente",
+   "Talvez"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Quais atividades mais lhe interessariam?",
+  "type": 4,
+  "entry": 407335180,
+  "row": null,
+  "opts": [
+   "Musculação",
+   "Treinamento funcional",
+   "Mobilidade"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Bloco 10 — Comunidade intencional",
+  "type": 8,
+  "widgets": null
+ },
+ {
+  "title": "Você se sentiria confortável em morar em uma comunidade formada intencionalmente por pessoas com afinidades de estilo de vida e interesses?",
+  "type": 5,
+  "entry": 72550058,
+  "row": "Nada confortável",
+  "opts": [
+   "1",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Quais afinidades seriam mais importantes para você?",
+  "type": 4,
+  "entry": 392116386,
+  "row": null,
+  "opts": [
+   "Saúde",
+   "Esporte",
+   "Alimentação"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Você gostaria que os futuros moradores participassem de algum processo de compatibilidade/seleção antes da aquisição das casas?",
+  "type": 2,
+  "entry": 1718005007,
+  "row": null,
+  "opts": [
+   "Sim",
+   "Talvez",
+   "Não"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Qual nível de convivência você gostaria de ter com os outros moradores?",
+  "type": 2,
+  "entry": 1689840857,
+  "row": null,
+  "opts": [
+   "Diariamente",
+   "Algumas vezes por semana",
+   "Uma vez por semana"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Bloco 11 — Segurança, apoio e estilo de vida",
+  "type": 8,
+  "widgets": null
+ },
+ {
+  "title": "Quanto valor você atribui à sensação de segurança proporcionada por viver em um complexo residencial privado?",
+  "type": 5,
+  "entry": 3875344,
+  "row": "Nenhum valor",
+  "opts": [
+   "1",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Quanto valor você atribui à possibilidade de ter pessoas próximas com quem possa contar em uma eventual necessidade?",
+  "type": 5,
+  "entry": 1967790012,
+  "row": "Nenhum valor",
+  "opts": [
+   "1",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Quanto valor você atribui à possibilidade de viver em um ambiente que estimule e facilite a manutenção de hábitos saudáveis?",
+  "type": 5,
+  "entry": 1156274914,
+  "row": "Nenhum valor",
+  "opts": [
+   "1",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Considerando segurança, apoio próximo e um ambiente que favoreça hábitos saudáveis, quanto esses fatores aumentariam o valor percebido dessa moradia para você?",
+  "type": 2,
+  "entry": 1396039941,
+  "row": null,
+  "opts": [
+   "Nada",
+   "Pouco",
+   "Moderadamente"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Bloco 12 — O idealizador como morador e regras de convivência",
+  "type": 8,
+  "widgets": null
+ },
+ {
+  "title": "Como você se sentiria sabendo que o próprio idealizador/desenvolvedor do empreendimento também será morador de uma das quatro casas?",
+  "type": 2,
+  "entry": 1762575012,
+  "row": null,
+  "opts": [
+   "Muito positivo",
+   "Positivo",
+   "Indiferente"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Você consideraria positivo que todos os moradores participassem da definição das regras de convivência e dos serviços compartilhados?",
+  "type": 5,
+  "entry": 1257856604,
+  "row": "Nada positivo",
+  "opts": [
+   "1",
+   "2",
+   "3"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Bloco 13 — O que realmente você gostaria ou não",
+  "type": 8,
+  "widgets": null
+ },
+ {
+  "title": "Se pudesse criar a residência ideal para os próximos 20 anos da sua vida, o que MAIS ela teria?",
+  "type": 1,
+  "entry": 112885165,
+  "row": null,
+  "opts": [],
+  "req": 0
+ },
+ {
+  "title": "Qual seria a principal razão para você querer morar em um empreendimento assim?",
+  "type": 1,
+  "entry": 2028225745,
+  "row": null,
+  "opts": [],
+  "req": 0
+ },
+ {
+  "title": "Qual seria a principal razão para você não querer morar nele?",
+  "type": 1,
+  "entry": 221411702,
+  "row": null,
+  "opts": [],
+  "req": 0
+ },
+ {
+  "title": "Existe alguma coisa importante para você em uma moradia desse tipo que não perguntamos?",
+  "type": 1,
+  "entry": 479509989,
+  "row": null,
+  "opts": [],
+  "req": 0
+ },
+ {
+  "title": "Bloco 14 — Você compraria",
+  "type": 8,
+  "widgets": null
+ },
+ {
+  "title": "Você consideraria comprar sua residência em um empreendimento como esse?",
+  "type": 2,
+  "entry": 1690934240,
+  "row": null,
+  "opts": [
+   "Certamente compraria",
+   "Provavelmente compraria",
+   "Talvez"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Em que horizonte você teria maior probabilidade de realizar essa compra?",
+  "type": 2,
+  "entry": 1203316638,
+  "row": null,
+  "opts": [
+   "Agora",
+   "1-2 anos",
+   "3-5 anos"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Considerando tudo o que foi apresentado, quais são os três principais elementos que mais justificariam a compra? (marque até 3)",
+  "type": 4,
+  "entry": 1730936504,
+  "row": null,
+  "opts": [
+   "Ter uma casa privativa adequada e com as possibilidades de adaptações para os próximos 15 a 30 anos",
+   "Uma comunidade de vizinhos com afinidades de interesses, estilo de vida e propósito",
+   "Serviços para manutenção da saúde, bem-estar e qualidade de vida"
+  ],
+  "req": 1
+ },
+ {
+  "title": "Para continuar próximo do projeto",
+  "type": 8,
+  "widgets": null
+ },
+ {
+  "title": "Nome",
+  "type": 0,
+  "entry": 708739239,
+  "row": null,
+  "opts": [],
+  "req": 0
+ },
+ {
+  "title": "Telefone com DDD",
+  "type": 0,
+  "entry": 882720960,
+  "row": null,
+  "opts": [],
+  "req": 0
+ },
+ {
+  "title": "E-mail",
+  "type": 0,
+  "entry": 1813543697,
+  "row": null,
+  "opts": [],
+  "req": 0
+ }
+]

@@ -39,18 +39,14 @@ var TEXTO_CONCEITO =
   'faixa etária aproximada, com afinidades de interesses e estilo de vida.\n\n' +
   'Cada casal terá sua própria casa, com todos os espaços necessários para viver com ' +
   'independência, privacidade e conforto, incluindo cozinha privativa para preparar suas ' +
-  'próprias refeições e receber familiares e amigos.\n\n' +
+  'próprias refeições.\n\n' +
   'Ao mesmo tempo, o condomínio contará com áreas comuns cuidadosamente planejadas para ' +
   'favorecer a convivência social, o bem-estar e a manutenção de um estilo de vida ativo ' +
   'e saudável.\n\n' +
-  'Durante cinco dias por semana, um cozinheiro contratado poderá preparar refeições ' +
-  'elaboradas e nutricionalmente planejadas para os moradores. As refeições poderão ser ' +
-  'compartilhadas em uma agradável área gourmet, proporcionando momentos de convivência, ' +
-  'ou cada morador poderá optar por fazer sua refeição em sua própria casa, com privacidade.\n\n' +
-  'Durante seis dias por semana, haverá um educador físico compartilhado para ' +
-  'acompanhamento dos treinos matinais. Os moradores poderão participar de atividades ' +
-  'orientadas em pequenos grupos ou utilizar a estrutura individualmente, de acordo com ' +
-  'seus interesses, tempo e necessidades.\n\n' +
+  'Ter um cozinheiro 05 dias na semana para preparar refeições nutricionalmente ' +
+  'planejadas, para serem compartilhadas na área gourmet ou para levar pra casa, como preferir.\n\n' +
+  'Ter um educador físico acompanhando os treinos matutinos em pequenos grupos ou ' +
+  'individualmente, por 06 dias por semana.\n\n' +
   'A proposta também contempla um ambiente seguro e privado, com áreas verdes, espaços de ' +
   'convivência e lazer, criando condições para que os moradores mantenham hábitos ' +
   'saudáveis, convivam com pessoas com interesses semelhantes e tenham apoio próximo ' +
@@ -60,10 +56,9 @@ var TEXTO_CONCEITO =
   'O paisagismo utiliza conceitos de biofilia, valorizando a presença da natureza e, ' +
   'especialmente, da vegetação característica do Cerrado, criando uma relação mais ' +
   'próxima entre os moradores e o ambiente natural.\n\n' +
-  'Mais do que simplesmente comprar uma casa, a proposta é criar uma forma de viver que ' +
-  'combine privacidade, autonomia, segurança, saúde, boa alimentação, atividade física, ' +
-  'natureza e convivência social. Essa ambiência é a principal característica natural das ' +
-  'Blue Zones para uma vida longeva com qualidade!\n\n' +
+  'Mais do que comprar uma casa com privacidade, autonomia, segurança, saúde, boa ' +
+  'alimentação, atividade física, natureza e convivência, esse projeto visa proporcionar ' +
+  'uma vida longeva com qualidade, através das referências das Blue Zones.\n\n' +
   'O empreendimento será concebido para que seus moradores possam desfrutar dessa forma ' +
   'de viver não apenas hoje, mas também ao longo dos próximos 15 a 30 anos, com conforto ' +
   'e possibilidade de adaptação às mudanças naturais da vida.';
@@ -78,7 +73,6 @@ var SITUACAO_ATUAL = [
   'Ainda tenho trabalho integral',
   'Trabalho em tempo parcial',
   'Posso trabalhar remotamente',
-  'Um trabalha e outro não',
   'Estou aposentado(a)',
   'Meu trabalho não exige minha presença regular'
 ];
@@ -87,7 +81,6 @@ var SITUACAO_PARCEIRO = [
   'Ainda tem trabalho integral',
   'Trabalha em tempo parcial',
   'Pode trabalhar remotamente',
-  'Um trabalha e outro não',
   'Está aposentado(a)',
   'O trabalho dele(a) não exige presença regular'
 ];
@@ -110,12 +103,12 @@ function criarPesquisaPirenopolis() {
   // ---- BLOCO 1 — PERFIL DO CASAL ---------------------------------------
   h.secao('Bloco 1 — Perfil do casal', '');
 
-  h.unica('Qual sua idade?', FAIXAS_IDADE, true);
+  h.unica('Qual sua idade?', FAIXAS_IDADE.concat(['Outra idade']), true);
 
   h.unica('Qual seu estado civil?',
     ['Casado(a)', 'Solteiro(a)', 'Viúvo(a)', 'Namorando'], true);
 
-  h.unica('Moram juntos?', ['Sim', 'Não'], false);
+  h.unica('Moram juntos?', ['Sim', 'Não', 'Não se aplica'], false);
 
   h.unica('Qual a idade do seu parceiro(a)?',
     FAIXAS_IDADE.concat(['Não se aplica']), false);
@@ -141,20 +134,13 @@ function criarPesquisaPirenopolis() {
   h.unica('Quantos dias por semana você pratica atividade física?',
     ['Nenhum', '1-2', '3-4', '5-6', 'Todos os dias'], true);
 
-  h.multipla('Quais atividades pratica?',
-    ['Musculação', 'Caminhada', 'Corrida', 'Ciclismo', 'Natação', 'Pilates', 'Yoga', 'Funcional', 'Tênis/padel', 'Esportes coletivos', 'Trilhas'],
-    false, true);
-
   h.escala('Qual a importância de manter uma vida fisicamente ativa nos próximos 10-20 anos?',
     'Nada importante', 'Extremamente importante', true);
 
-  h.escala('Qual a importância de uma alimentação saudável para sua qualidade de vida?',
+  h.escala('Manter uma alimentação saudável frequentemente',
     'Nada importante', 'Extremamente importante', true);
 
   h.escala('Quanto você valoriza viver próximo à natureza?',
-    'Nada', 'Muito', true);
-
-  h.escala('Quanto você valoriza ter tempo para lazer, viagens e atividades pessoais?',
     'Nada', 'Muito', true);
 
   // ---- BLOCO 3 — A VIDA QUE VOCÊ DESEJA TER OU MANTER ------------------
@@ -222,8 +208,8 @@ function criarPesquisaPirenopolis() {
   h.escala('Você considera importante que a casa possa receber adaptações futuras caso sua mobilidade ou necessidades mudem?',
     'Nada importante', 'Extremamente importante', true);
 
-  h.unica('Como você avalia a importância de um elevador residencial em uma casa de dois pavimentos?',
-    ['Essencial', 'Muito importante', 'Importante', 'Pouco importante, mas interessante', 'Nada importante', 'Não quero'], true);
+  h.unica('O que você preferiria entre estas opções abaixo?',
+    ['Uma casa térrea menor sem vista', 'Um sobrado com elevador'], true, true);
 
   h.unica('Você estaria disposto a pagar mais por uma residência preparada para proporcionar maior autonomia e conforto ao longo do envelhecimento?',
     ['Não', 'Talvez', 'Sim, dependendo do valor', 'Sim'], true);
@@ -235,20 +221,11 @@ function criarPesquisaPirenopolis() {
     ['Academia', 'Área de treinamento funcional', 'Pequena piscina', 'Sauna', 'Jardins', 'Área gourmet', 'Refeições', 'Equipamentos esportivos', 'Espaços de convivência', 'Serviços de manutenção'],
     ['Compartilharia tranquilamente', 'Compartilharia eventualmente', 'Preferiria privativo', 'Não gostaria de compartilhar'], true);
 
-  h.escala('Quanto é importante para você ter liberdade para escolher quando participar das atividades e momentos coletivos?',
-    'Nada importante', 'Extremamente importante', true);
-
   // ---- BLOCO 8 — ALIMENTAÇÃO E LONGEVIDADE -----------------------------
   h.secao('Bloco 8 — Alimentação e longevidade', '');
 
-  h.escala('Quanto você valoriza uma alimentação planejada não apenas para ser saudável, mas para contribuir para uma longevidade com qualidade de vida, preservação da força, mobilidade, disposição e autonomia?',
-    'Nada', 'Muito', true);
-
   h.escala('Qual seu interesse em contar com um cozinheiro compartilhado cinco dias por semana?',
     'Nenhum interesse', 'Muito interesse', true);
-
-  h.multipla('Quais refeições teriam maior valor para você?',
-    ['Café da manhã', 'Almoço', 'Jantar', 'Refeições especiais'], true);
 
   h.unica('Você preferiria:',
     ['Preparar todas as refeições em casa', 'Alternar entre casa e área gourmet', 'Fazer a maioria das refeições coletivamente', 'Dependeria do dia'], true);
@@ -318,7 +295,7 @@ function criarPesquisaPirenopolis() {
   // ---- BLOCO 13 — O QUE REALMENTE VOCÊ GOSTARIA OU NÃO -----------------
   h.secao('Bloco 13 — O que realmente você gostaria ou não', '');
 
-  h.aberta('Se pudesse criar a residência ideal para os próximos 20 anos da sua vida, o que ela teria?', false);
+  h.aberta('Se pudesse criar a residência ideal para os próximos 20 anos da sua vida, o que MAIS ela teria?', false);
 
   h.aberta('Qual seria a principal razão para você querer morar em um empreendimento assim?', false);
 
